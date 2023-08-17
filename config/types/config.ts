@@ -4,16 +4,17 @@ export interface BuildPath {
   entry: string;
   build: string;
   html: string;
-};
+  src: string;
+}
 
 export interface BuildOptions {
   mode: BuildMode;
   path: BuildPath;
   isDev: boolean;
   port: number;
-};
+}
 
 export interface BuilEnv {
   mode: BuildMode,
   port: number,
-};
+}

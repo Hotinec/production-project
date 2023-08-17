@@ -1,5 +1,5 @@
 export function test(num: number): string {
-  console.log("TEST")
+  console.log('TEST');
 
   return 'jjjjjj';
 }
