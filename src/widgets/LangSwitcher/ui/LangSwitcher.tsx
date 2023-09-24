@@ -11,15 +11,15 @@ export const LangSwitcher = ({ className }: LangSwitcherProps) => {
   const { i18n } = useTranslation();
 
   const changeLanguage = () => {
-    i18n.changeLanguage(i18n.language === 'ru' ? 'en' : 'ru')
-  }
+    i18n.changeLanguage(i18n.language === 'ru' ? 'en' : 'ru');
+  };
 
   return (
-    <Button 
+    <Button
       className={classNames(cls.LangSwitcher, {}, [className])}
       onClick={changeLanguage}
     >
       {i18n.language}
     </Button>
-  )
+  );
 };
