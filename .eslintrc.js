@@ -2,6 +2,7 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    jest: true,
   },
   extends: [
     'airbnb',
@@ -28,7 +29,9 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'no-unused-vars': 'warn',
     'import/no-unresolved': 'off',
-    'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', '.tsx'] }],
+    'react/jsx-filename-extension': [
+      2,
+      { extensions: ['.js', '.jsx', '.tsx'] }],
     'import/extensions': 'off',
     'import/no-extraneous-dependencies': 'off',
     'react/function-component-definition': 'off',
@@ -40,6 +43,7 @@ module.exports = {
     'no-undef': 'off',
     'react/require-default-props': 'off',
     'i18next/no-literal-string': ['error', { markupOnly: true }],
+    'max-len': ['error', { ignoreComments: true }],
   },
   globals: {
     __IS_DEV__: true,
