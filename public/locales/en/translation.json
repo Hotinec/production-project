@@ -2,5 +2,9 @@
   "test example": "Test example",
   "main": "Main",
   "about": "About",
-  "toggle": "Toggle"
+  "toggle": "Toggle",
+  "page_not_found": "Page not found",
+  "update_page": "Update Page",
+  "uncontrolled_error": "Unexpected error was happen",
+  "throw_error": "Throw error"
 }

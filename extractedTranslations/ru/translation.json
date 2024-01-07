@@ -3,5 +3,9 @@
   "Main Page": "Main Page",
   "about": "about",
   "main": "main",
-  "toggle": "toggle"
+  "page_not_found": "page_not_found",
+  "throw_error": "throw_error",
+  "toggle": "toggle",
+  "uncontrolled_error": "uncontrolled_error",
+  "update_page": "update_page"
 }
